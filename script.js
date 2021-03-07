@@ -1,8 +1,10 @@
-document.write("<h1>FINDING THE EVEN OR ODD IN JAVA SCRIPT");
-var x = 51;
-if(x%2==0){
-    document.write("<h3>It is an even number</h3>");
+var x = 0;
+if(x>0){
+    document.write("<h3>Positive</h3>");
+}
+else if(x <0){
+    document.write("<h3>Negative</h3>");
 }
 else{
-    document.write("<h3>It is an odd number</h3>");
+    document.write("<h3>Zero</h3>");
 }
